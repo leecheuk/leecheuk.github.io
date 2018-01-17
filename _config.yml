@@ -16,7 +16,7 @@
 title: Cheuk Lee
 email: #
 description: Cheuk Lee's portfolio
-baseurl: "https://leecheuk.github.io/" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://leecheuk.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: #
 github_username:  leecheuk
