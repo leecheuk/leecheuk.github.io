@@ -1,0 +1,11 @@
+<h3>iPhone Apps</h3>
+<div class="apps-container row">
+    {% for app in site.data.apps %}
+    <a class="col-xs-4" href="{{app.link | prepend: site.baseurl}}" target="_blank">
+      <div class="app-container">
+        <div class="img-container"><img src="{{app.img | prepend: site.baseurl}}" alt=""></div>
+        <div class="app-name">{{app.name}}</div>
+      </div>
+    </a>
+    {% endfor %}
+</div>
