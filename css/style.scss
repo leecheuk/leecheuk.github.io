@@ -1,50 +1,86 @@
----
----
-
+--- 
+--- 
 @import "bootstrap";
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 footer {
-  text-align: center;
-  margin: 0 20px;
-  color: #999;
-  font-size: 12;
-  text-align: right;
+    text-align: center;
+    margin: 0 20px;
+    color: #999;
+    font-size: 12;
+    text-align: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+.subtitle-info-spec {}
+
+.subtitle-info-email {
+    font-weight: 500;
 }
 
 .subtitle {
-  fontSize: 15px;
-  font-weight: 100;
+    fontSize: 15px;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-between;
 }
 
 .banner {
-  border-bottom: 1px solid #e1e4e8;
-  padding-bottom: 20px;
+    border-bottom: 1px solid #e1e4e8;
+    padding-bottom: 20px;
 }
 
+// mobile apps
 .apps-container {
+    margin-bottom: 50px;
 }
-.app-container {
-}
+
+.app-container {}
+
 .app-name {
-  text-align: center;
+    text-align: center;
 }
+
 .img-container {
-  height: 100px;
-  width: 100px;
-  border-radius: 25px;
-  overflow: hidden;
-  margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 0 auto;
 }
+
 .img-container img {
-  height: 100px;
-  width: auto;
+    height: 100px;
+    width: auto;
+}
+
+// web apps
+.web-apps-list {
+    margin-left: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.web-app {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.web-app svg {
+    transform: translateY(6px);
+}
+
+.web-app a {
+  text-decoration: none;
 }

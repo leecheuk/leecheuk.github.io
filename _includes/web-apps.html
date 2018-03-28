@@ -1,0 +1,12 @@
+<h3>Web Apps</h3>
+<div class="apps-container row">
+  <ul class="web-apps-list">
+    {% for app in site.data.web_apps %}
+      <li class="web-app">
+        <a href="{{app.link}}">
+          <i data-feather="box"></i> {{app.name}}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
