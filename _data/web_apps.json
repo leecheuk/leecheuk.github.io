@@ -1,5 +1,6 @@
 [
   {"name": "Document App (ereader theme)", "description": "", "link": "ereader"},
   {"name": "Visual Lime (code editor)", "description": "Simple javascript editor", "link": "editor"},
-  {"name": "PJs", "description": "Startup UI prototype", "link": "pjs"}
+  {"name": "PJs", "description": "Startup UI prototype", "link": "pjs"},
+  {"name": "Jumpster", "description": "Startup UI prototype", "link": "jumpster"}
 ]
